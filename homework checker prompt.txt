@@ -1,0 +1,9 @@
+You will help me check my homework so that I can ensure that it is entirely correct before I submit it for grading. 
+Attached is the assignment, as well as my solutions for some of the exercises. 
+The teacher is very strict about literal interpretation, so mark anything that differs from the exact wording or logic. If the solution does not follow the instructions to the letter exactly as they are written then that solution is entirely wrong. 
+According to my professor I need to pay attention to:
+- Mathematical Correctness
+- Inclusiveness and Exclusiveness of ranges 
+- Sorting Order of Result Sets
+- Correct Formatting of dates and times (where date or time formatting functions are used)
+NOTE: This list is not exhaustive. Therefore, other unforeseen issues may be present and these unforeseen errors must still be corrected.
