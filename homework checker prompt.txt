@@ -7,3 +7,33 @@ According to my professor I need to pay attention to:
 - Sorting Order of Result Sets
 - Correct Formatting of dates and times (where date or time formatting functions are used)
 NOTE: This list is not exhaustive. Therefore, other unforeseen issues may be present and these unforeseen errors must still be corrected.
+
+Additionally, my exercise solutions MUST adhere to the following coding guidelines:
+- MySQL keywords (SELECT, FROM, WHERE, etc...) Must be in ALL CAPS. 
+- other words, including table and column names, aliases, and database names should be entirely lowercase.
+- Use an underscore to separate words in names
+- Start each clause on a new line. 
+    Example: 
+       | SELECT [column_names] 
+       | FROM [table_name] JOIN [other_table]
+       |     ON column1 = column2
+       | WHERE [condition]
+       | ORDER BY .... 
+- Align similar items for readability
+- Break long clauses (that is clauses greater then 80 characters) into multiple lines and use indenting on the continued line
+       Example:
+       | SELECT col1, col2, col3
+       |     col5, col6, col7
+- Only explicit JOINs are allowed in our code.  NO implicit JOINs.
+- Indent JOIN phrases under the FROM clause. This means that FROM and the first JOIN should share the same line. However phrases belonging to JOIN (ON, USING, etc...) should be on their own line and indented for readability.
+    Example:
+    |FROM table1 t1 LEFT OUTER JOIN table2
+    |    USING (common_column)
+    |    JOIN table 3 t3
+    |    ON t2.column = t3.column
+- Don't put keywords on their own line.
+    Example of poor formatting:
+    | SELECT
+    |     [column_names]
+    | FROM
+    |     [table_name]
